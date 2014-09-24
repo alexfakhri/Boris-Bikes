@@ -1,6 +1,9 @@
 require 'docking_station'
+require 'bike_container_spec'
 
 describe DockingStation do
+
+	include BikeContainer;
 
 	let(:bike) { Bike.new }
 	let(:station) { DockingStation.new(:capacity => 20) }
