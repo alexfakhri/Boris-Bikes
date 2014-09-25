@@ -11,4 +11,11 @@ class DockingStation
 	end
 
 
+	def accept_fixed_bikes(van)
+		van.available_bikes.each do |bike|
+			@bikes << van.release(bike)
+		end
+	end
+
+
 end

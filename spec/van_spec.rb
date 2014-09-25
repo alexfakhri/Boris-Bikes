@@ -10,7 +10,6 @@ describe Van do
 	class ContainerHolder; include BikeContainer; end
 
 	let(:van) { Van.new(:capacity => 10) }
-	let(:holder) { ContainerHolder.new }
 	let(:bike) { Bike.new }
 	let(:station) { DockingStation.new }
 	let(:garage) { Garage.new }
@@ -30,5 +29,6 @@ describe Van do
 		garage.dock(bike)
 		expect{van.collect_available_bikes(garage)}.to change{garage.bike_count}.by -1
 	end
+
 
 end
