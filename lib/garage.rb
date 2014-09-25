@@ -9,5 +9,14 @@ class Garage
 		@bikes = []
 	end
 
+	def receive_broken_bikes(van)
+		van.broken_bikes.each do |bike|
+			@bikes << van.release(bike)
+		end
+	end
+
+	def fix_bikes(bike)
+		bike.fix!
+	end
 
 end
