@@ -7,7 +7,7 @@ require 'garage'
 
 describe Van do
 
-	class ContainerHolder; include BikeContainer; end
+	include BikeContainer;
 
 	let(:van) { Van.new(:capacity => 10) }
 	let(:bike) { Bike.new }

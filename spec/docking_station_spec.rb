@@ -1,5 +1,5 @@
 require 'docking_station'
-require 'bike_container_spec'
+
 
 describe DockingStation do
 
@@ -17,6 +17,7 @@ describe DockingStation do
 		van.dock(bike)
 		expect{station.accept_fixed_bikes(van)}.to change{van.bike_count}.by -1
 	end
+
 
 	
 end

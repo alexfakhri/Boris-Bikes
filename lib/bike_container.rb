@@ -39,4 +39,8 @@ module BikeContainer
 		bikes.select {|bike| bike.broken? }
 	end
 
+	def empty?
+		raise "Station is empty" if bike_count == 0
+	end
+
 end

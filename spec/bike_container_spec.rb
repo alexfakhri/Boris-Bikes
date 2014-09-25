@@ -56,4 +56,9 @@ describe BikeContainer do
 		holder.dock(broken_bike)
 		expect(holder.broken_bikes).to eq([broken_bike])
 	end
+
+	it "Should raise an error if someone tries to take a bike from an empty holder" do
+		expect(lambda {holder.empty?}).to raise_error(RuntimeError)
+	end
+		
 end

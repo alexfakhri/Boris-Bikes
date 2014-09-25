@@ -4,9 +4,10 @@ require 'bike_container'
 require 'garage'
 
 
+
 describe Garage do
 
-	class ContainerHolder; include BikeContainer; end
+	include BikeContainer;
 
 	let(:van) { Van.new }
 	let(:bike) { Bike.new }
