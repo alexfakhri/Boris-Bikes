@@ -17,8 +17,6 @@ describe Person do
 		person.rent_available_bike(station)
 		expect(station.bike_count).to eq (0)
 		expect(person.to_have_a_bike(bike))
-
-
 	end
 
 	it "can return a rented bike to the station" do
