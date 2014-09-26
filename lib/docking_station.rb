@@ -17,9 +17,6 @@ class DockingStation
 		end
 	end
 
-	def empty!(station)
-		@bikes == 0
-	end
 
 
 end

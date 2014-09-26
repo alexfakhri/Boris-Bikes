@@ -65,4 +65,6 @@ describe BikeContainer do
 		expect(holder.bike_count).to eq(0)
 	end
 		
+	
+
 end

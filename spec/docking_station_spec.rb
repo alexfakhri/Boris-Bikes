@@ -1,4 +1,4 @@
-require 'docking_station'
+require './lib/docking_station.rb'
 
 
 describe DockingStation do
