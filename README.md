@@ -1,6 +1,8 @@
 Boris Bikes
 ===========
 
+[![Build Status](https://travis-ci.org/alexfakhri/Boris-Bikes.svg?branch=master)](https://travis-ci.org/alexfakhri/Boris-Bikes)
+
 ## Description
 
 A simple system ruby command line application for managing Boris Bikes in London. The application allows us to manage rental and return of bikes.
