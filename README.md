@@ -10,7 +10,7 @@ This was the Makers Academy week 1 project, it introduces us to Ruby, Object-Ori
 ## Spec:
 
 A simple system for managing Boris Bikes in London. It will:
-* Should provide functionality for a number of docking stations and bikes.
+* Provide functionality for a number of docking stations and bikes.
 * Allow you to rent bikes and return them.
 * Maintain a record of bikes unavailable to rent if broken and available bikes.
 * Track bikes through a docking station, garage and van, and repair bikes where needed.
